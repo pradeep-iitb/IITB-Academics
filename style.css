@@ -19,7 +19,7 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin : 5px 0px 5px 0px ;
+    margin : 7px 2px 4px 2px ;
 }
 
 .classapp {
@@ -34,14 +34,14 @@
 }
 
 #notes{
-    background-color: #C879FF;
+    background-color: #ad4cf1;
     color: black;
 }
 #books{
-    background-color: #FFB7FF;
+    background-color: #f884f8;
 }
 #otherresources{
-    background-color: #826AED;
+    background-color: #6a50df;
 }
 .tabs {
     height: 450px;
