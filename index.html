@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Protected Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      font-size: large;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 20px;
+    }
+    #error {
+      color: rgb(247, 242, 242);
+    }
+  </style>
+</head>
+<body style="background-image: url(headingbackground.webp);
+background-repeat: no-repeat;
+background-size: cover;">
+<h1>IITB STUDY MATERIAL</h1>
+<h2>Enter Password to Continue</h2>
+<input type="password" id="password" placeholder="Enter password">
+<button onclick="checkPassword()">Submit</button>
+<p id="error"></p>
+<footer>
+        <div style ="height: fit-content ;
+        background-color: #277079 ;
+        text-align: center;
+        position: fixed;
+        bottom: 0px;
+        width: 100vw;">
+            <h5>~DEVELOPED BY PRADEEP KMT</h5>
+        </div>
+    </footer>
+<script>
+  function checkPassword() {
+    var password = document.getElementById("password").value;
+    var correctPassword = "25b2285"; // Change this to your password
+
+    if (password === correctPassword) {
+      // Redirect to another page
+      window.location.href = "studypage.html"; // Change this to your page
+    } else {
+      document.getElementById("error").textContent = "Wrong password! Try again.";
+    }
+  }
+</script>
+
+</body>
+</html>
