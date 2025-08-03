@@ -71,15 +71,16 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         
     }
     .classapp {
-        height: 250px;
-        width: 500px;
+        height: 90px;
+        width: 180px;
     }
     img {
-        height: 250px;
-        width: 500px;
+        height: 90px;
+        width: 180px;
     }
     #tabgroup {
         flex-direction: column;
@@ -88,7 +89,7 @@ body {
     }
     .tabs {
     height: 40vh;
-    width: 90vw;
+    width: 80vw;
     text-align: center ;
     }
     .newline {
