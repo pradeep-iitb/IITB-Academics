@@ -20,6 +20,7 @@
     gap: 20px;
     justify-content: center;
     margin : 7px 2px 4px 2px ;
+    flex-wrap: wrap;
 }
 
 .classapp {
@@ -28,6 +29,7 @@
     border-color: black;
     border-radius: 10%;
     border-width: 10px;
+
 }
 #maths {
     background-size: cover;
@@ -63,11 +65,13 @@ body {
     color: black;
     text-decoration: none;
 }
+
 @media (max-width:1200px) {
     #classapps {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        
     }
     .classapp {
         height: 250px;
@@ -84,7 +88,10 @@ body {
     }
     .tabs {
     height: 40vh;
-    width: 100vw;
+    width: 90vw;
     text-align: center ;
-}
+    }
+    .newline {
+        display: block;
+    }
 }
