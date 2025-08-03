@@ -86,12 +86,17 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 80 vw;
+        font-size: 40px;
     }
     .tabs {
     height: 40vh;
     width: 80vw;
     text-align: center ;
+    font-size: 40px;
+    
     }
+    
     .newline {
         display: block;
     }
