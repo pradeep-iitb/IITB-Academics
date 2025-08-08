@@ -58,7 +58,7 @@ background-repeat: repeat;
 background-size: cover;">
 <div id="content"><img src="logo.png" style="align-self: center; " >
 <h1>IITB STUDY MATERIAL</h1>
-<h2>Enter Password to Continue</h2>
+<h2>Enter Password and double click to Continue</h2>
 <input type="password" id="password" placeholder="Enter password"> <br>
 <div id="container"  ><button id="submit" style=" 
       background-color: darkcyan;
@@ -101,6 +101,9 @@ background-size: cover;">
   const submit = document.getElementById("submit")
 
   submit.addEventListener("mouseenter" , function() {
+      container.style.flexDirection = "row-reverse" 
+  })
+  submit.addEventListener("click" , function() {
       container.style.flexDirection = "row-reverse" 
   })
   submit.addEventListener("mouseleave" , function() {
